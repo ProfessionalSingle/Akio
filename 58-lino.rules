@@ -1,0 +1,3 @@
+UBSYSTEM=="ttyACM*", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="0483", ATTRS{serial}=="8947840", SYMLINK+="linobase"
+
+SUBSYSTEMS=="ttyUSB*", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{serial}=="0001" , SYMLINK+="linosensor"
